@@ -1,0 +1,70 @@
+.materials__title {
+  font-family: "NeuzeitS-Book", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 8px;
+  color: $white;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.materials__subtitle {
+  font-family: "Calliga", "Arial", sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  color: $white;
+
+  margin-bottom: 90px;
+}
+
+.materials__container {
+  background-color: $green;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  min-height: 360px;
+}
+
+.materials-list {
+  display: flex;
+  gap: 1px;
+
+  margin-bottom: 1px;
+}
+
+.materials-list__button-text {
+  padding-left: 35px;
+}
+
+.button-text-canvas {
+  background-image: url("../../img/svg/canvas.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  content: "";
+}
+
+.button-text-leather {
+  background-image: url("../../img/svg/leather.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  content: "";
+}
+
+.button-text-nylon {
+  background-image: url("../../img/svg/nylon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  content: "";
+}
+
+.button-text-recycle {
+  background-image: url("../../img/svg/recycle.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  content: "";
+}

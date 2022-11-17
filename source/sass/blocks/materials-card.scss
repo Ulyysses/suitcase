@@ -1,0 +1,43 @@
+.materials-card {
+  margin-top: 80px;
+  margin-bottom: 87px;
+
+  display: none;
+
+  &_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.materials-card__left_recycle {
+  margin-right: 162px;
+}
+
+.materials-card__left_leather {
+  margin-right: 127px;
+}
+
+.materials-card__left_nylon {
+  margin-right: 184px;
+}
+
+.materials-card__left_canvas {
+  margin-right: 77px;
+}
+
+.materials-card__title {
+  margin-bottom: 15px;
+}
+
+.materials-card__right {
+  position: relative;
+}
+
+.materials__img {
+  position: absolute;
+  z-index: 2;
+  left: -45px;
+  top: 42px;
+}

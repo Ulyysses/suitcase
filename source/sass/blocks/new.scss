@@ -1,0 +1,33 @@
+.new__container {
+  margin-top: 81px;
+  margin-bottom: 81px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new__left {
+  margin-right: 132px;
+  position: relative;
+}
+
+.new__text {
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.new__caption {
+  font-size: 14px;
+  line-height: 8px;
+  text-transform: uppercase;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -90px;
+}
+
+.new__title {
+  margin-bottom: 15px;
+}

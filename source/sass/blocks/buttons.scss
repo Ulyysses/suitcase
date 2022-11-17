@@ -1,0 +1,70 @@
+.button-contact {
+  width: 270px;
+  min-height: 38px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.button-contact_black {
+  color: $white;
+  background-color: $black;
+  cursor: pointer;
+}
+
+.button-contact_black:hover {
+  color: $black;
+  background-color: $yellow;
+  cursor: pointer;
+}
+
+.button-contact_yellow {
+  color: $black;
+  background-color: $yellow;
+  cursor: pointer;
+}
+
+.button-contact_yellow:hover {
+  color: $white;
+  background-color: $black;
+  cursor: pointer;
+}
+
+.tab-button {
+  font-family: "NeuzeitS-Book", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $black;
+  background-color: $white;
+  border: none;
+
+  width: 270px;
+  min-height: 58px;
+
+  position: relative;
+
+  cursor: pointer;
+
+  &_active {
+    border-top: 3px solid $yellow;
+  }
+
+  &_active::before {
+    content: "";
+    position: absolute;
+    left: 127px;
+    border: 9px solid transparent;
+    bottom: -18px;
+    border-top: 9px solid $green;
+  }
+
+  &_active::after {
+    content: "";
+    position: absolute;
+    left: 127px;
+    border: 9px solid transparent;
+    bottom: -17px;
+    border-top: 9px solid $white;
+  }
+}

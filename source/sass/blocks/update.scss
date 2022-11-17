@@ -1,0 +1,43 @@
+.update__container {
+  text-align: center;
+  background-image: url("../../img/update.jpg");
+  background-position: center;
+  background-color: #886c51;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+}
+
+.update__title {
+  padding-top: 213px;
+  margin-bottom: 60px;
+}
+
+.button_small {
+  width: 66px;
+  min-height: 66px;
+  background-color: rgba(242, 239, 227, 0.5);
+  border: none;
+  cursor: pointer;
+
+  position: absolute;
+
+  margin-left: 470px;
+  margin-top: 200px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+
+    width: 36px;
+    height: 36px;
+
+    top: 16px;
+    left: 15px;
+
+    background-image: url("../../img/svg/chat.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}

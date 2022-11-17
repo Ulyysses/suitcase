@@ -1,0 +1,32 @@
+.best-seller__container {
+  margin-top: 81px;
+  margin-bottom: 81px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-seller__left {
+  margin-right: 132px;
+  position: relative;
+}
+
+.best-seller__caption {
+  font-size: 14px;
+  line-height: 8px;
+  text-transform: uppercase;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 43px;
+  margin-left: -70px;
+}
+
+.best-seller__title {
+  margin-bottom: 10px;
+}
+
+.best-seller__text {
+  margin-bottom: 30px;
+}

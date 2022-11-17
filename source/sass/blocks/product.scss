@@ -1,0 +1,65 @@
+.product {
+  margin-bottom: 113px;
+}
+
+.product__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product__title {
+  font-family: "NeuzeitS-Book", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #000000;
+
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 53px;
+}
+
+.product__price {
+  width: 78px;
+  min-height: 35px;
+  background-color: #000000;
+  color: $white;
+  font-family: "NeuzeitS-Book", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 11px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.product-list {
+  display: flex;
+  gap: 24px;
+
+  width: 1340px;
+  overflow-y: auto;
+
+  margin: 0 auto;
+
+  &::-webkit-scrollbar {
+    width: 1340px;
+    height: 5px;
+    background-color: #d8d8d8;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $yellow;
+  }
+}
+
+.product-list__item {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}

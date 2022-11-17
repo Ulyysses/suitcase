@@ -1,1 +1,11 @@
-/* здесь подключите шрифты*/
+@font-face {
+  font-family: "Calliga";
+  font-weight: 400;
+  src: url("../../fonts/calliga-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NeuzeitS-Book";
+  font-weight: 400;
+  src: url("../../fonts/neuzeitSBook-regular.woff2") format("woff2");
+}

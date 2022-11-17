@@ -1,0 +1,54 @@
+.ecology-card {
+  margin-top: 88px;
+  margin-bottom: 88px;
+
+  display: none;
+
+  &_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ecology-card__left_atmosphere {
+  margin-right: 216px;
+}
+
+.ecology-card__left_forest {
+  margin-right: 87px;
+}
+
+.ecology-card__left_plastic {
+  margin-right: 189px;
+}
+
+.ecology-card__title {
+  margin-bottom: 10px;
+}
+
+.ecology-card__subtitle {
+  font-size: 16px;
+  line-height: 17px;
+
+  margin-bottom: 30px;
+}
+
+.ecology-card__subtitle_forest {
+  margin-bottom: 15px;
+}
+
+.ecology-card__text_forest {
+  margin-bottom: 30px;
+}
+
+.ecology-card__right {
+  position: relative;
+}
+
+.ecology__img {
+  position: absolute;
+  z-index: 2;
+  left: -45px;
+  top: 42px;
+}
