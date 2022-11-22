@@ -456,20 +456,24 @@
           </p>
           <div class="form__wrapper">
             <fieldset class="form__item">
-              <legend class="form__name">Seu nome</legend>
-              <input class="form__input" type="text">
+              <legend class="form__name">Seu nome
+                <input class="form__input" type="text" required>
+              </legend>
             </fieldset>
             <fieldset class="form__item">
-              <legend class="form__name">Sua mensagem</legend>
-              <input class="form__input form__input_message" type="text">
+              <legend class="form__name">Detalhes da ordem
+                <input class="form__input" type="text" required>
+              </legend>
             </fieldset>
             <fieldset class="form__item">
-              <legend class="form__name">Seu e-mail</legend>
-              <input class="form__input" type="email">
+              <legend class="form__name">Seu e-mail
+                <input class="form__input" type="email" required onchange="removeInvalid()">
+              </legend>
             </fieldset>
             <fieldset class="form__item">
-              <legend class="form__name">Seu número de telefone</legend>
-              <input class="form__input" type="tel">
+              <legend class="form__name">Seu número de telefone
+                <input class="form__input" type="tel" required onchange="removeInvalid()">
+              </legend>
             </fieldset>
           </div>
           <button type="submit" class="modal__button">
