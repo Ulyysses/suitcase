@@ -10,24 +10,36 @@
   color: $white;
   background-color: $black;
   cursor: pointer;
-}
 
-.button-contact_black:hover {
-  color: $black;
-  background-color: $yellow;
-  cursor: pointer;
+  &:hover {
+    color: $black;
+    background-color: $yellow;
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: $black;
+    background-color: $yellow;
+    cursor: pointer;
+  }
 }
 
 .button-contact_yellow {
   color: $black;
   background-color: $yellow;
   cursor: pointer;
-}
 
-.button-contact_yellow:hover {
-  color: $white;
-  background-color: $black;
-  cursor: pointer;
+  &:hover {
+    color: $white;
+    background-color: $black;
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: $white;
+    background-color: $black;
+    cursor: pointer;
+  }
 }
 
 .tab-button {
