@@ -104,11 +104,12 @@
   color: $white;
   background-color: $black;
   border: none;
-  margin-bottom: 24px;
   cursor: pointer;
 
   display: block;
   margin: 0 auto;
+
+  margin-bottom: 24px;
 
   &:hover {
     color: $black;
